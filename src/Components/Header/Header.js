@@ -6,13 +6,13 @@ const Header = () => {
   return (
     <div>
         <div className='logo'>meo TEA</div>
-      <div>
+      <div className='header-nav-links'>
         <Link to="/">HOME</Link>
       </div>
-      <div>
+      <div className='header-nav-links'>
         <Link to="/menu">MENU</Link>
       </div>
-      <div>
+      <div className='header-nav-links'>
         <Link to="/about">HOURS</Link>
       </div>
       <div className='header-banner'>

@@ -4,4 +4,21 @@
 border: solid black;
 height: 120px;
 width: 120px;
+margin-top: 20px;
+font-size: 20px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+.header-nav-links {
+    font-size: 25px;
+}
+
+.header-nav-links a:link {
+    text-decoration: none;
+}
+
+.header-nav-links a:hover {
+    color: cornflowerblue;
 }
