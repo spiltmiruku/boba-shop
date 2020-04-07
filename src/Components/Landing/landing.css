@@ -1,0 +1,33 @@
+
+.all-products {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.menu-border {
+  border: solid #434445 5px;
+  margin: 50px;
+}
+
+.product {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#product-img {
+  width: 100px;
+  margin: 20px;
+}
+
+.tea-name {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.tea-info {
+    margin-bottom: 20px;
+}

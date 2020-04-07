@@ -1,24 +1,79 @@
-/* ----------HEADER COMPONENT---------- */
+body {
+  font-family: "Sen", sans-serif;
+}
+
+.header-logo-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .logo {
-border: solid black;
-height: 120px;
-width: 120px;
-margin-top: 20px;
-font-size: 20px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
+  border: solid #434445 5px;
+  color: #434445;
+  height: 120px;
+  width: 120px;
+  margin: 30px;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-links-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .header-nav-links {
-    font-size: 25px;
+  font-size: 25px;
+  margin: 30px;
 }
 
 .header-nav-links a:link {
-    text-decoration: none;
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+.header-nav-links a:visited {
+  color: #8b8b8b;
 }
 
 .header-nav-links a:hover {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
+
+.header-nav-links a:visited:hover {
+  color: cornflowerblue;
+}
+
+.banner-overlay {
+    width: 100vw;
+    height: 150px;
+    background-color: #fff;
+    opacity: 30%;
+    position: absolute;
+    bottom: 100px;
+}
+
+#picture-banner {
+    display: block;
+    width: 100%;
+    filter: grayscale(20%);
+  }
+  
+  .banner-text {
+      font-size: 50px;
+      color: #fff;
+      position: absolute;
+      bottom: 150px;
+      right: 45px;
+  }
+  
+
+/* 
+font-family: 'Sen', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif; 
+*/
