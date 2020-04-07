@@ -1,0 +1,22 @@
+.info-border {
+  border: solid #434445 5px;
+  margin: 50px;
+}
+
+.info-box {
+  /* border: springgreen solid; */
+  width: max-content;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 25px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gen-info {
+  margin: 20px;
+}

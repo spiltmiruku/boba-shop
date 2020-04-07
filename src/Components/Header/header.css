@@ -53,24 +53,24 @@ body {
     width: 100vw;
     height: 150px;
     background-color: #fff;
-    opacity: 30%;
+    opacity: 0.3;
     position: absolute;
     bottom: 100px;
 }
 
+.banner-text {
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 150px;
+    right: 45px;
+}
 #picture-banner {
     display: block;
     width: 100%;
     filter: grayscale(20%);
   }
   
-  .banner-text {
-      font-size: 50px;
-      color: #fff;
-      position: absolute;
-      bottom: 150px;
-      right: 45px;
-  }
   
 
 /* 
